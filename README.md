@@ -86,6 +86,9 @@ Example payloads:
   <svg/onload=alert(1)>  
   '"><img src=x onerror=alert(1)>  
   ```
+
+---
+
 ## Future Enhancements
 
 - Add support for cookies and authenticated sessions.
